@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "deploy_time": "Thu, 13 Apr 2017 03:09:17 GMT",
+      "remote_file": "http://192.168.1.7:8080/rexxar/demo-b6e76af404.html",
+      "uri": "douban://douban.com/rexxar_demo[/]?.*"
+    },
+    {
+      "deploy_time": "Thu, 13 Apr 2017 03:09:17 GMT",
+      "remote_file": "http://192.168.1.7:8080/home/index-f41aaf4c94.html",
+      "uri": "douban://douban.com/home_index[/]?.*"
+    }
+  ],
+  "partial_items": [
+    {
+      "deploy_time": "Thu, 13 Apr 2017 03:09:17 GMT",
+      "remote_file": "http://192.168.1.7:8080/rexxar/demo-b6e76af404.html",
+      "uri": "douban://partial.douban.com/rexxar_demo/_.*"
+    },
+    {
+      "deploy_time": "Thu, 13 Apr 2017 03:09:17 GMT",
+      "remote_file": "http://192.168.1.7:8080/home/index-f41aaf4c94.html",
+      "uri": "douban://partial.douban.com/home_index/_.*"
+    }
+  ],
+  "deploy_time": "Thu, 13 Apr 2017 03:27:59 GMT"
+}

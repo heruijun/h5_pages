@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": 1,
+    "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
+    "curly": 2,
+    "eqeqeq": [2, "smart"]
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "globals": {
+    "process": true,
+    "DEV_IP": true
+  }
+}
