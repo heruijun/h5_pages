@@ -11,7 +11,6 @@ mapData.forEach(function(map) {
   uriMap.set(uri, filename);
 });
 
-
 let sourceSet = new Set(uriMap.values());
 
 // Array [ { path: 'rexxar', name: 'demo' } ]
@@ -22,7 +21,6 @@ let sources = Array.from(sourceSet).map(str => {
     name: info[1]
   }
 });
-
 
 export {
   uriMap,
