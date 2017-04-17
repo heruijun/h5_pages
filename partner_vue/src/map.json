@@ -2,5 +2,9 @@
   {
     "filename": "about/about",
     "uri": "mogoroom://www.mogorrom.com/about_about[/]?.*"
+  },
+  {
+    "filename": "manage/manage",
+    "uri": "mogoroom://www.mogorrom.com/manage_manage[/]?.*"
   }
 ]
