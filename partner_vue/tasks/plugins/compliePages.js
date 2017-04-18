@@ -12,6 +12,8 @@ export default function compilePages() {
 
   let collect = function(file, enc, cb) {
     // 收集三类文件，记下所需信息
+    // console.log('file.path: ' + file.path)
+
     switch (path.extname(file.path)) {
       // case '.css':
       case '.js':

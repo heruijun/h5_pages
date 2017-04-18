@@ -13,7 +13,6 @@ mapData.forEach(function(map) {
 
 let sourceSet = new Set(uriMap.values());
 
-// Array [ { path: 'rexxar', name: 'demo' } ]
 let sources = Array.from(sourceSet).map(str => {
   let info = str.split('/');
   return {

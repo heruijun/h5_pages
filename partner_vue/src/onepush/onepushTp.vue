@@ -1,5 +1,4 @@
 <style>
-  body {background:#fff;}
   .title-position {position:absolute;padding:1em 1.5em;background:#4078c0;color:#fff;display:inline-block;}
   .weui_grid {padding:25px 20px;width: 33.33vw;height: 33.33vw;}
   /*.weui_grid_icon {margin-bottom: 10px;width:8vw;height:8vw;}*/
