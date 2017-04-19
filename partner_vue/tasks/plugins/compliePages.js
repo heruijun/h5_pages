@@ -35,14 +35,14 @@ export default function compilePages() {
 
   let emit = function(cb) {
     // 推入vendorjs
-    let vendorFile = assetsMap.get('common/vendor.js');
+    let vendorFile = assetsMap.get('assets/vendor.js');
     vendorFile.stem = `${vendorFile.stem}-${vendorFile.hash}`;
 
     this.push(vendorFile);
 
     // 编译jade。1：内嵌js和css；2: 写入vendorjs地址
     for (let page of pageList) {
-      let vendorSrc = `${remotePath}/common/${vendorFile.basename}`;
+      let vendorSrc = `${remotePath}/assets/${vendorFile.basename}`;
 
       let html = page.func({
         // css: assetsMap.get(`${page.path}/${page.name}.css`).contents.toString('utf8'),

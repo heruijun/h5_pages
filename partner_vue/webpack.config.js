@@ -37,7 +37,7 @@ module.exports = function(env) {
     resolve: {
       extensions: ['', '.js', '.vue'], //后缀名自动补全
       alias: {
-        common: path.join(__dirname, 'src/common'),
+        assets: path.join(__dirname, 'src/assets'),
         vue: 'vue/dist/vue.js' //webpack打包时，需要设置别名
       }
     },

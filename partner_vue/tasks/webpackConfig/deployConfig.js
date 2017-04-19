@@ -18,7 +18,7 @@ deployConfig.plugins = deployConfig.plugins.concat(
   new webpack.optimize.OccurrenceOrderPlugin(),
   new webpack.optimize.CommonsChunkPlugin({
     name: 'vendor',
-    filename: 'common/vendor.js',
+    filename: 'assets/vendor.js',
     minChunks: Infinity
   }),
   new webpack.DefinePlugin({
